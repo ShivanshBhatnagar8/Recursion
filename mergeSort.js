@@ -1,6 +1,5 @@
 function mergeSort(arr) {
   if (arr.length === 1) {
-    console.log(arr);
     return arr;
   }
 
@@ -29,7 +28,6 @@ function merge(arr1, arr2) {
   while (j < arr2.length) {
     result.push(arr2[j++]);
   }
-  console.log(result);
   return result;
 }
 
